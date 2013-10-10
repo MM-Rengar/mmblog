@@ -10,7 +10,7 @@ class Web extends Controller
 		}
 	}
 	public function _empty(){
-		echo 'web迷路了';
+		echo 'web/a 迷路了';
 	}
 	
 }
