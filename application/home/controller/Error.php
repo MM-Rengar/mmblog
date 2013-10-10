@@ -1,7 +1,7 @@
 <?php
 namespace app\home\controller;
 use app\common\Web;
-class Error extends Controller
+class Error extends Web
 {
 	
 	
