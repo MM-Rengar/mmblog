@@ -6,7 +6,7 @@ class Web extends Controller
 	public function _initialize(){
 		$request = $this->request;
 		if($request->isMobile()){
-			$this->redirect('?s=webapp/index/index');
+			$this->redirect('http://127.77.37.104/index.php?s=webapp');
 		}
 	}
 	public function _empty(){
