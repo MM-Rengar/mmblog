@@ -1,12 +1,12 @@
 <?php
 namespace app\common;
 use \think\Controller;
-class Web extends Controller
+class App extends Controller
 {
 	public function _initialize(){
 		$request = $this->request;
-		if($request->isMobile()){
-			$this->redirect('webapp/index/index');
+		if(!$request->isMobile()){
+			$this->redirect('home/index/index');
 		}
 	}
 	public function _empty(){
