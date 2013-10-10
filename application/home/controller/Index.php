@@ -1,11 +1,15 @@
 <?php
 namespace app\home\controller;
-use \think\Request
+use \think\Request;
 class Index
 {
     public function index()
     {
 		$request = Request::instance();
-		echo "home:hello world!";
+		if($request->isMobile()){
+			echo 'Mobile';
+		}else{
+			echo "home:hello world!";
+		}
     }
 }
