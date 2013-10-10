@@ -11,5 +11,7 @@ class Index
 		}else{
 			echo "home:hello world!";
 		}
+		$info = $request->header();
+		var_dump($info);
     }
 }
