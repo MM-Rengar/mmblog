@@ -6,7 +6,7 @@ class App extends Controller
 	public function _initialize(){
 		$request = $this->request;
 		if(!$request->isMobile()){
-			$this->redirect('http://127.77.37.104/index.php?s=home');
+			$this->redirect('/');
 		}
 	}
 	public function _empty(){
