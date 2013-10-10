@@ -66,7 +66,7 @@ return [
     // 默认验证器
     'default_validate'       => '',
     // 默认的空控制器名
-    'empty_controller'       => 'commom/Error',
+    'empty_controller'       => 'Error',
     // 操作方法后缀
     'action_suffix'          => '',
     // 自动搜索控制器
