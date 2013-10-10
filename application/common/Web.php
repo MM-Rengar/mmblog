@@ -4,7 +4,7 @@ use \think\Controller;
 class Web extends Controller
 {
 	public function _initialize(){
-		$request = Request::instance();
+		$request = $this->request;
 		if($request->isMobile()){
 			echo 'Mobile';
 		}
