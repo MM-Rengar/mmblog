@@ -7,5 +7,6 @@ class Index extends Web
     {
 		$info = $this->request->header();
 		var_dump($info);
+echo 1;
     }
 }
